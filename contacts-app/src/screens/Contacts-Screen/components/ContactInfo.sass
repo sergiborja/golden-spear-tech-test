@@ -1,0 +1,85 @@
+.contactInfo
+    max-height: 93vh
+    font-family: "Montserrat", sans-serif
+    &__personal
+        height: 28vh
+    &__navbar
+        display: flex
+        flex-direction: row
+        align-items: center
+        border-top: 1px solid black
+        height: 10vh
+    &__imageContainer
+        border-radius: 50%
+        height: 8vh
+        width: 8vh
+        overflow: hidden
+        margin-left: 2vw
+    &__image
+        height: 8vh
+    &__input
+        position: absolute
+        height: 5vh
+        width: 20vw
+        right: 2vw
+    &__name
+        margin-bottom: 0
+        margin-left: 2vw
+    &__historyWrapper
+        width: 100%
+        height: 5vh
+        background-color: rgb(152, 163, 194)
+        display: flex
+        align-items: center
+    &__historyButtons
+        width: 100px
+        &--button
+            height: 3.5vh
+    &__historyContactsWrapper
+        display: flex
+        overflow: hidden
+        overflow-x: auto
+        list-style: none
+    &__historyContacts
+        margin: 0vh 1vh
+    &__historyContacts--actual
+        color: white
+        list-style: none
+    &__details
+        margin: 2vh
+        display: flex
+    &__logo
+        height: 5vh
+.connectionsWrapper
+    max-height: 55vh
+    display: grid
+    grid-template-columns: repeat(5, 1fr)
+    grid-template-rows: auto
+    overflow: hidden
+    overflow: auto
+    margin-top: 7vh
+    margin-bottom: 3vh
+    margin-left: 4vw
+    &__cardContainer
+        margin-top: 1vh
+        width: 10vw
+        height: 20vh
+        overflow: hidden
+        overflow-y: auto
+    &__img
+        height: 10vh
+.paginationContainer
+    display: flex
+    position: absolute
+    left: 60vw
+    right: 0
+    bottom: 3vh
+    margin: auto
+    &__icon
+        height: 3vh
+    &__name
+        font-weight: 500
+.welcome
+    font-weight: 600
+    text-align: center
+    letter-spacing: 1px
